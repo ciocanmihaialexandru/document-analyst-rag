@@ -1,0 +1,911 @@
+{
+  "banca": "CEC Bank S.A.",
+  "data": null,
+  "pachete": [
+    {
+      "nume": "GRIJA COMPLETA",
+      "comisioane": [
+        {
+          "serviciu": "Administrarea contului (Lei)",
+          "categorie": "Servicii de cont generale",
+          "valoare": "Lunar: 0 Lei (in cazul indeplinirii conditiilor cumulative: i) efectuarea unui rulaj creditor de min. 2.000 lei/luna/existenta unor disponibilitati cumulate in depozite la termen de min. 20.000 EUR si ii) efectuarea in cursul lunii cel putin a unei tranzactii cu cardul inclus in pachetul detinut, la comercianti, indiferent de valoare. Alternativ, comision lunar – 15 lei"
+        },
+        {
+          "serviciu": "Emiterea unui card de debit",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Administrare cont de card de debit",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ATM-ul Băncii",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ATM-ul altor bănci",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei pentru retrageri de sume de max. 1.000 lei/luna, ulterior 5 lei/operatiune"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ghișeul Băncii",
+          "categorie": "Carduri și numerar",
+          "valoare": "1,50% min 20 lei/operatiune-sume programate cu cel putin 24 ore inainte; 1,75% min 20 lei/operatiune-sume neprogramate <5.000 lei; 3% din suma retrasa-sume neprogramate ≥ 5.000 lei"
+        },
+        {
+          "serviciu": "Depuneri de numerar în contul clientului",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Depuneri de numerar în alt cont",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Plăți interbancare în lei",
+          "categorie": "Plăți",
+          "valoare": "< 500 lei 15 Lei/4,5 lei*; ≥ 500 lei 20 Lei/6 lei*; in regim de urgenta 50 Lei/15 lei*"
+        },
+        {
+          "serviciu": "Plati intrabancare si interbancare in LEI gratuite, nelimitat, din cont curent/card, efectuate prin Mobile Banking, Internet Banking sau Phone Banking",
+          "categorie": "Plăți",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Debitare directă interbancară",
+          "categorie": "Plăți",
+          "valoare": "[0 - 500 lei) 2 Lei; [500 - 50.000 lei) 3 Lei; ≥ 50.000 lei 4 Lei"
+        },
+        {
+          "serviciu": "Încasări interbancare în Lei",
+          "categorie": "Plăți",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Activare servicii de ordine de plată programată în Lei",
+          "categorie": "Alte servicii",
+          "valoare": "< 500 lei) 15 Lei; ≥ 500 lei 20 Lei"
+        },
+        {
+          "serviciu": "Administrare Internet Banking",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Administrare Mobile Banking",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Administrare Phone Banking",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Înlocuire dispozitiv fizic/token",
+          "categorie": "Alte servicii",
+          "valoare": "100 Lei – dispozitiv fizic/token; 0 lei - pentru aplicația eToken"
+        },
+        {
+          "serviciu": "Descoperitul de cont",
+          "categorie": "Descoperit de cont și servicii conexe",
+          "valoare": "IRCC + 7,92 pp/an – marja"
+        }
+      ]
+    },
+    {
+      "nume": "INFINITE",
+      "comisioane": [
+        {
+          "serviciu": "Administrarea contului (Lei)",
+          "categorie": "Servicii de cont generale",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Plăți interbancare în lei",
+          "categorie": "Plăți",
+          "valoare": "< 500 lei 15 Lei/4,5 lei*; ≥ 500 lei 20 Lei/6 lei*; in regim de urgenta 50 Lei/15 lei*"
+        },
+        {
+          "serviciu": "Debitare directă interbancară",
+          "categorie": "Plăți",
+          "valoare": "[0 - 500 lei) 2 Lei; [500 - 50.000 lei) 3 Lei; ≥ 50.000 lei 4 Lei"
+        },
+        {
+          "serviciu": "Încasări interbancare în Lei",
+          "categorie": "Plăți",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Emiterea unui card de debit",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Administrare cont de card de debit",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ATM-ul Băncii",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ATM-ul altor bănci",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ghișeul Băncii",
+          "categorie": "Carduri și numerar",
+          "valoare": "1,50% min 20 lei/operatiune-sume programate cu cel putin 24 ore inainte; 1,75% min 20 lei/operatiune-sume neprogramate <5.000 lei; 3% din suma retrasa-sume neprogramate ≥ 5.000 lei"
+        },
+        {
+          "serviciu": "Depuneri de numerar în contul clientului",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Depuneri de numerar în alt cont",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Descoperitul de cont",
+          "categorie": "Descoperit de cont și servicii conexe",
+          "valoare": "IRCC + 7,92 pp/an – marja"
+        },
+        {
+          "serviciu": "Activare servicii de ordine de plată programată în Lei",
+          "categorie": "Alte servicii",
+          "valoare": "< 500 lei) 15 Lei; ≥ 500 lei 20 Lei"
+        },
+        {
+          "serviciu": "Administrare Internet Banking",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Administrare Mobile Banking",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Înlocuire dispozitiv fizic/token",
+          "categorie": "Alte servicii",
+          "valoare": "100 Lei – dispozitiv fizic/token; 0 lei - pentru aplicația eToken"
+        },
+        {
+          "serviciu": "Pachet de servicii INFINITE",
+          "categorie": null,
+          "valoare": "Lunar: 0 Lei (in cazul indeplinirii conditiilor cumulative) Alternativ, comision lunar - 90 lei/luna"
+        }
+      ]
+    },
+    {
+      "nume": "PREMIUM",
+      "comisioane": [
+        {
+          "serviciu": "Administrarea contului (Lei)",
+          "categorie": "Servicii de cont generale",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Plăți interbancare în lei < 500 lei",
+          "categorie": "Plăți (cu excepția cardurilor)",
+          "valoare": "15 Lei/4,5 lei*"
+        },
+        {
+          "serviciu": "Plăți interbancare în lei ≥ 500 lei",
+          "categorie": "Plăți (cu excepția cardurilor)",
+          "valoare": "20 Lei/6 lei*"
+        },
+        {
+          "serviciu": "Plăți interbancare în lei în regim de urgență",
+          "categorie": "Plăți (cu excepția cardurilor)",
+          "valoare": "50 Lei/15 lei*"
+        },
+        {
+          "serviciu": "Debitare directă interbancară [0 - 500 lei)",
+          "categorie": "Plăți (cu excepția cardurilor)",
+          "valoare": "2 Lei"
+        },
+        {
+          "serviciu": "Debitare directă interbancară [500 - 50.000 lei)",
+          "categorie": "Plăți (cu excepția cardurilor)",
+          "valoare": "3 Lei"
+        },
+        {
+          "serviciu": "Debitare directă interbancară ≥ 50.000 lei",
+          "categorie": "Plăți (cu excepția cardurilor)",
+          "valoare": "4 Lei"
+        },
+        {
+          "serviciu": "Încasări interbancare în Lei",
+          "categorie": "Plăți (cu excepția cardurilor)",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Emiterea unui card de debit",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Administrare cont de card de debit",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ATM-ul Băncii",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ATM-ul altor bănci",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ghișeul Băncii - sume programate cu cel puțin 24 ore înainte",
+          "categorie": "Carduri și numerar",
+          "valoare": "1,50% min 20 lei/operațiune"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ghișeul Băncii - sume neprogramate <5.000 lei",
+          "categorie": "Carduri și numerar",
+          "valoare": "1,75% min 20 lei/operațiune"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ghișeul Băncii - sume neprogramate ≥ 5.000 lei",
+          "categorie": "Carduri și numerar",
+          "valoare": "3% din suma retrasă"
+        },
+        {
+          "serviciu": "Depuneri de numerar în contul clientului",
+          "categorie": "Cardure și numerar",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Depuneri de numerar în alt cont",
+          "categorie": "Cardure și numerar",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Descoperitul de cont",
+          "categorie": "Descoperit de cont și servicii conexe",
+          "valoare": "IRCC + 7,92 pp/an – marja"
+        },
+        {
+          "serviciu": "Activare servicii de ordine de plată programată în Lei < 500 lei",
+          "categorie": "Alte servicii",
+          "valoare": "15 Lei"
+        },
+        {
+          "serviciu": "Activare servicii de ordine de plată programată în Lei ≥ 500 lei",
+          "categorie": "Alte servicii",
+          "valoare": "20 Lei"
+        },
+        {
+          "serviciu": "Administrare Internet Banking",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Administrare Mobile Banking",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Înlocuire dispozitiv fizic/token",
+          "categorie": "Alte servicii",
+          "valoare": "100 Lei – dispozitiv fizic/token, 0 lei - pentru aplicația eToken"
+        },
+        {
+          "serviciu": "Pachet de servicii PREMIUM",
+          "categorie": null,
+          "valoare": "Lunar: 0 Lei (în cazul îndeplinirii condițiilor cumulative)/Alternativ, comision lunar - 50 lei/lună"
+        }
+      ]
+    },
+    {
+      "nume": "SMART",
+      "comisioane": [
+        {
+          "serviciu": "Administrarea contului (Lei)",
+          "categorie": "Servicii de cont generale",
+          "valoare": "Lunar: 0 Lei (in cazul indeplinirii conditiilor cumulative: i) efectuarea unui rulaj creditor pe contul curent/card de debit, in lei, reprezentand incasare recurenta de venituri de min. 2.000 lei/luna si ii) efectuarea in cursul lunii cel putin a unei tranzactii cu cardul inclus in pachetul detinut, la comercianti, indiferent de valoare, tranzactie care sa fie evidentiata pe extrasul de cont si decontata in aceeasi luna). Alternativ, comision lunar – 12 Lei"
+        },
+        {
+          "serviciu": "Plăți interbancare în lei",
+          "categorie": "Plăți",
+          "valoare": "< 500 lei 15 Lei/4,5 lei*, ≥ 500 lei 20 Lei/6 lei*, in regim de urgenta 50 Lei/15 lei* (5 Plati interbancare gratuite in lei/luna prin Internet/Mobile/Phone Banking)"
+        },
+        {
+          "serviciu": "Debitare directă interbancară",
+          "categorie": "Plăți",
+          "valoare": "[0 - 500 lei) 2 Lei, [500 - 50.000 lei) 3 Lei, ≥ 50.000 lei 4 Lei"
+        },
+        {
+          "serviciu": "Încasări interbancare în Lei",
+          "categorie": "Plăți",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Emiterea unui card de debit",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Administrare cont de card de debit",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ATM-ul Băncii",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ATM-ul altor bănci",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei pentru retrageri de sume de max. 1.000 lei/luna, ulterior 5 lei/operatiune"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ghișeul Băncii",
+          "categorie": "Carduri și numerar",
+          "valoare": "1,50% min 20 lei/operatiune-sume programate cu cel putin 24 ore inainte, 1,75% min 20 lei/operatiune-sume neprogramate <5.000 lei, 3% din suma retrasa-sume neprogramate ≥ 5.000 lei"
+        },
+        {
+          "serviciu": "Depuneri de numerar în contul clientului",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Depuneri de numerar în alt cont",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Descoperitul de cont",
+          "categorie": "Descoperit de cont și servicii conexe",
+          "valoare": "IRCC + 7,92 pp/an – marja"
+        },
+        {
+          "serviciu": "Activare servicii de ordine de plată programată în Lei",
+          "categorie": "Alte servicii",
+          "valoare": "< 500 lei) 15 Lei, ≥ 500 lei 20 Lei"
+        },
+        {
+          "serviciu": "Administrare Internet Banking",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Administrare Mobile Banking",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Administrare Phone Banking",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Înlocuire dispozitiv fizic/token",
+          "categorie": "Alte servicii",
+          "valoare": "100 Lei – dispozitiv fizic/token, 0 lei - pentru aplicația eToken"
+        }
+      ]
+    },
+    {
+      "nume": "PENSIONAR",
+      "comisioane": [
+        {
+          "serviciu": "Administrarea contului (Lei)",
+          "categorie": "Servicii de cont generale",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Plăți interbancare în lei",
+          "categorie": "Plăți",
+          "valoare": "< 500 lei 15 Lei/4,5 lei*; ≥ 500 lei 20 Lei/6 lei*; in regim de urgenta 50 Lei/15 lei*"
+        },
+        {
+          "serviciu": "Debitare directă interbancară",
+          "categorie": "Plăți",
+          "valoare": "[0 - 500 lei) 2 Lei; [500 - 50.000 lei) 3 Lei; ≥ 50.000 lei 4 Lei"
+        },
+        {
+          "serviciu": "Încasări interbancare în Lei",
+          "categorie": "Plăți",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Emiterea unui card de debit",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Administrare cont de card de debit",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ATM-ul Băncii",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ATM-ul altor bănci",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei pentru retrageri de sume de max. 1.000 lei/luna, ulterior 5 lei/operatiune"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ghișeul Băncii",
+          "categorie": "Carduri și numerar",
+          "valoare": "1,50% min 20 lei/operatiune-sume programate cu cel putin 24 ore inainte; 1,75% min 20 lei/operatiune-sume neprogramate <5.000 lei; 3% din suma retrasa-sume neprogramate ≥ 5.000 lei"
+        },
+        {
+          "serviciu": "Depuneri de numerar în contul clientului",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Depuneri de numerar in alt cont",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Descoperitul de cont",
+          "categorie": "Descoperit de cont și servicii conexe",
+          "valoare": "IRCC + 7,92 pp/an - marja"
+        },
+        {
+          "serviciu": "Activare servicii de ordine de plată programată în Lei",
+          "categorie": "Alte servicii",
+          "valoare": "< 500 lei) 15 Lei; ≥ 500 lei 20 Lei"
+        },
+        {
+          "serviciu": "Administrare Internet Banking",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Administrare Mobile Banking",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Administrare Phone banking",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Înlocuire dispozitiv fizic/token",
+          "categorie": "Alte servicii",
+          "valoare": "100 Lei – dispozitiv fizic/token; 0 lei - pentru aplicația eToken"
+        },
+        {
+          "serviciu": "Pachet PENSIONAR",
+          "categorie": "Pachet de servicii",
+          "valoare": "Lunar: 0 Lei (cu condiții: rulaj creditor min. 800 lei/luna + o tranzacție cu cardul); Alternativ, comision lunar - 6 lei; Comision anual total: 0 lei/ 72 Lei"
+        }
+      ]
+    },
+    {
+      "nume": "BUN VENIT",
+      "comisioane": [
+        {
+          "serviciu": "Administrarea contului (Lei)",
+          "categorie": "Servicii de cont generale",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Plăți interbancare în lei < 500 lei",
+          "categorie": "Plăți",
+          "valoare": "15 Lei/4,5 lei*"
+        },
+        {
+          "serviciu": "Plăți interbancare în lei ≥ 500 lei",
+          "categorie": "Plăți",
+          "valoare": "20 Lei/6 lei*"
+        },
+        {
+          "serviciu": "Plăți interbancare în lei în regim de urgență",
+          "categorie": "Plăți",
+          "valoare": "50 Lei/15 lei*"
+        },
+        {
+          "serviciu": "Debitare directă interbancară [0 - 500 lei)",
+          "categorie": "Plăți",
+          "valoare": "2 Lei"
+        },
+        {
+          "serviciu": "Debitare directă interbancară [500 - 50.000 lei)",
+          "categorie": "Plăți",
+          "valoare": "3 Lei"
+        },
+        {
+          "serviciu": "Debitare directă interbancară ≥ 50.000 lei",
+          "categorie": "Plăți",
+          "valoare": "4 Lei"
+        },
+        {
+          "serviciu": "Încasări interbancare în Lei",
+          "categorie": "Plăți",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Emiterea unui card de debit",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Administrare cont de card de debit",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ATM-ul Băncii",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ATM-ul altor bănci",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei pentru retrageri de sume de max. 1.000 lei/luna, ulterior 5 lei/operatiune"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ghișeul Băncii - sume programate cu cel putin 24 ore inainte",
+          "categorie": "Carduri și numerar",
+          "valoare": "1,50% min 20 lei/operatiune"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ghișeul Băncii - sume neprogramate <5.000 lei",
+          "categorie": "Carduri și numerar",
+          "valoare": "1,75% min 20 lei/operatiune"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ghișeul Băncii - sume neprogramate ≥ 5.000 lei",
+          "categorie": "Carduri și numerar",
+          "valoare": "3% din suma retrasa"
+        },
+        {
+          "serviciu": "Depuneri de numerar în contul clientului",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Depuneri de numerar în alt cont",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Descoperitul de cont",
+          "categorie": "Descoperit de cont și servicii conexe",
+          "valoare": "IRCC + 7,92 pp/an"
+        },
+        {
+          "serviciu": "Activare servicii de ordine de plată programată în Lei < 500 lei",
+          "categorie": "Alte servicii",
+          "valoare": "15 Lei"
+        },
+        {
+          "serviciu": "Activare servicii de ordine de plată programată în Lei ≥ 500 lei",
+          "categorie": "Alte servicii",
+          "valoare": "20 Lei"
+        },
+        {
+          "serviciu": "Administrare Internet Banking",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Administrare Mobile Banking",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Administrare Phone Banking",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Înlocuire dispozitiv fizic/token",
+          "categorie": "Alte servicii",
+          "valoare": "100 Lei"
+        },
+        {
+          "serviciu": "Înlocuire dispozitiv eToken",
+          "categorie": "Alte servicii",
+          "valoare": "0 lei"
+        }
+      ]
+    },
+    {
+      "nume": "STUDENT FREE",
+      "comisioane": [
+        {
+          "serviciu": "Administrarea contului (Lei)",
+          "categorie": "Servicii de cont generale",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Plăți interbancare în lei < 500 lei",
+          "categorie": "Plăți",
+          "valoare": "15 Lei/4,5 lei*"
+        },
+        {
+          "serviciu": "Plăți interbancare în lei ≥ 500 lei",
+          "categorie": "Plăți",
+          "valoare": "20 Lei/6 lei*"
+        },
+        {
+          "serviciu": "Plăți interbancare în lei în regim de urgență",
+          "categorie": "Plăți",
+          "valoare": "50 Lei/15 lei*"
+        },
+        {
+          "serviciu": "Debitare directă interbancară [0 - 500 lei)",
+          "categorie": "Plăți",
+          "valoare": "2 Lei"
+        },
+        {
+          "serviciu": "Debitare directă interbancară [500 - 50.000 lei)",
+          "categorie": "Plăți",
+          "valoare": "3 Lei"
+        },
+        {
+          "serviciu": "Debitare directă interbancară ≥ 50.000 lei",
+          "categorie": "Plăți",
+          "valoare": "4 Lei"
+        },
+        {
+          "serviciu": "Încasări interbancare în Lei",
+          "categorie": "Plăți",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Emiterea unui card de debit",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Administrare cont de card de debit",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ATM-ul Băncii",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ATM-ul altor bănci",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei pentru retrageri de sume de max. 1.000 lei/luna, ulterior 5 lei/operatiune"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ghișeul Băncii - sume programate cu cel putin 24 ore inainte",
+          "categorie": "Carduri și numerar",
+          "valoare": "1,50% min 20 lei/operatiune"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ghișeul Băncii - sume neprogramate <5.000 lei",
+          "categorie": "Carduri și numerar",
+          "valoare": "1,75% min 20 lei/operatiune"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ghișeul Băncii - sume neprogramate ≥ 5.000 lei",
+          "categorie": "Carduri și numerar",
+          "valoare": "3% din suma retrasa"
+        },
+        {
+          "serviciu": "Depuneri de numerar în contul clientului",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Depuneri de numerar în alt cont",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Descoperitul de cont",
+          "categorie": "Descoperit de cont și servicii conexe",
+          "valoare": "IRCC + 7,92 pp/an"
+        },
+        {
+          "serviciu": "Activare servicii de ordine de plată programată în Lei < 500 lei",
+          "categorie": "Alte servicii",
+          "valoare": "15 Lei"
+        },
+        {
+          "serviciu": "Activare servicii de ordine de plată programată în Lei ≥ 500 lei",
+          "categorie": "Alte servicii",
+          "valoare": "20 Lei"
+        },
+        {
+          "serviciu": "Administrare Internet banking",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Administrare Mobile banking",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Înlocuire dispozitiv fizic/token",
+          "categorie": "Alte servicii",
+          "valoare": "100 Lei"
+        },
+        {
+          "serviciu": "Înlocuire eToken",
+          "categorie": "Alte servicii",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Pachet STUDENT FREE",
+          "categorie": "Pachet de servicii",
+          "valoare": "Lunar: 0 Lei (pana la împlinirea varstei de 24 ani cat și ulterior, in cazul indeplinirii conditiilor cumulative: i) efectuarea unui rulaj creditor de min. 2.000 lei/luna si ii) efectuarea in cursul lunii cel putin a unei tranzactii cu cardul). Alternativ, comision lunar – 12 Lei"
+        }
+      ]
+    },
+    {
+      "nume": "SMART JUNIOR",
+      "comisioane": [
+        {
+          "serviciu": "Administrarea contului (Lei)",
+          "categorie": "Servicii de cont generale",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Plăți interbancare în lei",
+          "categorie": "Plăți (cu excepția cardurilor)",
+          "valoare": "n/a"
+        },
+        {
+          "serviciu": "Plati cu cardul la comercianti/POS",
+          "categorie": "Plăți (cu excepția cardurilor)",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Debitare directă interbancară",
+          "categorie": "Plăți (cu excepția cardurilor)",
+          "valoare": "n/a"
+        },
+        {
+          "serviciu": "Încasări interbancare în Lei",
+          "categorie": "Plăți (cu excepția cardurilor)",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Emiterea unui card de debit",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Administrare cont de card de debit",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ATM-ul Băncii",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ATM-ul altor bănci",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei pentru retrageri de sume de max. 1.000 lei/luna, ulterior 5 lei/operatiune"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ghișeul Băncii",
+          "categorie": "Carduri și numerar",
+          "valoare": "1,50% min 20 lei/operatiune-sume programate cu cel putin 24 ore inainte; 1,75% min 20 lei/operatiune-sume neprogramate <5.000 lei; 3% din suma retrasa-sume neprogramate ≥ 5.000 lei"
+        },
+        {
+          "serviciu": "Depuneri de numerar în contul clientului",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Depuneri de numerar în alt cont",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Descoperitul de cont",
+          "categorie": "Descoperit de cont și servicii conexe",
+          "valoare": "n/a"
+        },
+        {
+          "serviciu": "Activare servicii de ordine de plată programată în Lei",
+          "categorie": "Alte servicii",
+          "valoare": "n/a"
+        },
+        {
+          "serviciu": "Administrare Internet banking",
+          "categorie": "Alte servicii",
+          "valoare": "n/a"
+        },
+        {
+          "serviciu": "Administrare Mobile banking",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Înlocuire dispozitiv fizic/token",
+          "categorie": "Alte servicii",
+          "valoare": "100 Lei – dispozitiv fizic/token; 0 lei - pentru aplicația eToken"
+        }
+      ]
+    },
+    {
+      "nume": "FIGO PAY",
+      "comisioane": [
+        {
+          "serviciu": "Administrarea contului (Lei)",
+          "categorie": "Servicii de cont generale",
+          "valoare": "Lunar: 0 Lei (în cazul îndeplinirii condițiilor cumulative: i) efectuarea unui rulaj creditor pe contul curent/card, în lei, reprezentând încasare recurentă de venituri de min. 700 lei/lună și ii) efectuarea în cursul lunii cel puțin a unei tranzacții cu cardul inclus în pachetul deținut, la comercianți, indiferent de valoare, tranzacție care să fie evidențiată pe extrasul de cont și decontată în aceeași lună). Alternativ, comision lunar – 9 Lei"
+        },
+        {
+          "serviciu": "Card de debit Visa atașat la un cont curent în LEI distinct",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Serviciul de transmitere notificări push – cont de card",
+          "categorie": "Alte servicii",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Mobile Banking",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Internet Banking",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Phone Banking",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Serviciul de comerț electronic securizat 3D SECURE (atașat cardului de debit)",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Direct Debit Intrabancar",
+          "categorie": "Plăți",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Încasări intra și interbancare în lei, inclusiv instant, gratuite în cont curent/cont card",
+          "categorie": "Plăți",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Plăți intrabancare în lei, gratuite, prin Internet/Mobile/Phone Banking",
+          "categorie": "Plăți",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "3 Plăți interbancare/lună gratuite prin Internet/Mobile/Phone Banking",
+          "categorie": "Plăți",
+          "valoare": "0 lei pentru primele 3 plăți/lună"
+        }
+      ]
+    }
+  ]
+}

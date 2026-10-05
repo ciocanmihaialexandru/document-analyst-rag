@@ -1,0 +1,23 @@
+# Mediu virtual
+.venv/
+venv/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Secrete / config local — NU se urcă pe Git
+.env
+*.env
+
+# Fișiere de sistem
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Loguri
+*.log
