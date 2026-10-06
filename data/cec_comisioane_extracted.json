@@ -66,6 +66,11 @@
           "valoare": "0 Lei"
         },
         {
+          "serviciu": "Incasari intra si interbancare in LEI, inclusiv instant, gratuite, in cont curent/cont card",
+          "categorie": "Plăți",
+          "valoare": "0 Lei"
+        },
+        {
           "serviciu": "Activare servicii de ordine de plată programată în Lei",
           "categorie": "Alte servicii",
           "valoare": "< 500 lei) 15 Lei; ≥ 500 lei 20 Lei"
@@ -89,6 +94,16 @@
           "serviciu": "Înlocuire dispozitiv fizic/token",
           "categorie": "Alte servicii",
           "valoare": "100 Lei – dispozitiv fizic/token; 0 lei - pentru aplicația eToken"
+        },
+        {
+          "serviciu": "Serviciul de comert electronic securizat 3D SECURE",
+          "categorie": "Alte servicii",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Serviciul de transmitere notificari push-cont card",
+          "categorie": "Alte servicii",
+          "valoare": "0 Lei"
         },
         {
           "serviciu": "Descoperitul de cont",
@@ -267,7 +282,7 @@
         },
         {
           "serviciu": "Depuneri de numerar în contul clientului",
-          "categorie": "Cardure și numerar",
+          "categorie": "Carduri și numerar",
           "valoare": "0 Lei"
         },
         {
@@ -291,12 +306,12 @@
           "valoare": "20 Lei"
         },
         {
-          "serviciu": "Administrare Internet Banking",
+          "serviciu": "Administrare Internet Banking [Internet Banking - CEConline]",
           "categorie": "Alte servicii",
           "valoare": "Lunar: 0 Lei"
         },
         {
-          "serviciu": "Administrare Mobile Banking",
+          "serviciu": "Administrare Mobile Banking [ CEC App - Mobile Banking]",
           "categorie": "Alte servicii",
           "valoare": "Lunar: 0 Lei"
         },
@@ -856,54 +871,74 @@
           "valoare": "Lunar: 0 Lei (în cazul îndeplinirii condițiilor cumulative: i) efectuarea unui rulaj creditor pe contul curent/card, în lei, reprezentând încasare recurentă de venituri de min. 700 lei/lună și ii) efectuarea în cursul lunii cel puțin a unei tranzacții cu cardul inclus în pachetul deținut, la comercianți, indiferent de valoare, tranzacție care să fie evidențiată pe extrasul de cont și decontată în aceeași lună). Alternativ, comision lunar – 9 Lei"
         },
         {
-          "serviciu": "Card de debit Visa atașat la un cont curent în LEI distinct",
+          "serviciu": "Emiterea unui card de debit",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei"
+        },
+        {
+          "serviciu": "Administrare cont de card de debit",
           "categorie": "Carduri și numerar",
           "valoare": "0 lei"
         },
         {
           "serviciu": "Serviciul de transmitere notificări push – cont de card",
-          "categorie": "Alte servicii",
-          "valoare": "0 lei"
-        },
-        {
-          "serviciu": "Mobile Banking",
-          "categorie": "Alte servicii",
-          "valoare": "Lunar: 0 Lei"
-        },
-        {
-          "serviciu": "Internet Banking",
-          "categorie": "Alte servicii",
-          "valoare": "Lunar: 0 Lei"
-        },
-        {
-          "serviciu": "Phone Banking",
-          "categorie": "Alte servicii",
-          "valoare": "Lunar: 0 Lei"
-        },
-        {
-          "serviciu": "Serviciul de comerț electronic securizat 3D SECURE (atașat cardului de debit)",
           "categorie": "Carduri și numerar",
-          "valoare": "0 lei"
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Mobile Banking (CEC App)",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Internet Banking (Home CEConline)",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Phone Banking (TeleCEC)",
+          "categorie": "Alte servicii",
+          "valoare": "Lunar: 0 Lei"
+        },
+        {
+          "serviciu": "Serviciul de comerț electronic securizat 3D SECURE",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 Lei"
         },
         {
           "serviciu": "Direct Debit Intrabancar",
           "categorie": "Plăți",
-          "valoare": "0 lei"
+          "valoare": "0 Lei"
         },
         {
-          "serviciu": "Încasări intra și interbancare în lei, inclusiv instant, gratuite în cont curent/cont card",
+          "serviciu": "Încasări intra și interbancare în lei, inclusiv instant",
           "categorie": "Plăți",
           "valoare": "0 Lei"
         },
         {
-          "serviciu": "Plăți intrabancare în lei, gratuite, prin Internet/Mobile/Phone Banking",
+          "serviciu": "Plăți intrabancare în lei prin Internet/Mobile/Phone Banking",
           "categorie": "Plăți",
+          "valoare": "0 Lei"
+        },
+        {
+          "serviciu": "Plăți interbancare prin Internet/Mobile/Phone Banking",
+          "categorie": "Plăți",
+          "valoare": "3 plăți/lună gratuite, ulterior: < 500 lei 15 Lei/4,5 lei*, ≥ 500 lei 20 Lei/6 lei*"
+        },
+        {
+          "serviciu": "Retrageri de numerar în lei de la ATM-ul Băncii",
+          "categorie": "Carduri și numerar",
           "valoare": "0 lei"
         },
         {
-          "serviciu": "3 Plăți interbancare/lună gratuite prin Internet/Mobile/Phone Banking",
-          "categorie": "Plăți",
-          "valoare": "0 lei pentru primele 3 plăți/lună"
+          "serviciu": "Retrageri de numerar în lei de la ATM-ul altor bănci",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 lei pentru retrageri de sume de max. 1.000 lei/lună, ulterior 5 lei/operațiune"
+        },
+        {
+          "serviciu": "Depuneri de numerar în contul clientului",
+          "categorie": "Carduri și numerar",
+          "valoare": "0 Lei"
         }
       ]
     }

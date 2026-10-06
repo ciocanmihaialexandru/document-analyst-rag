@@ -5,6 +5,11 @@
 """
 
 from tools.registry import TOOL_REGISTRY
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from langchain_core.tools import StructuredTool
+
 
 class ToolWrapper:
 
@@ -39,3 +44,35 @@ class ToolWrapper:
             }
             for name, tool in TOOL_REGISTRY.items()
         ]
+    
+    @staticmethod
+    def to_langchain_tools() -> list["StructuredTool"]:
+        try:
+            from langchain_core.tools import StructuredTool
+        except ImportError:
+            raise ImportError(
+                "langchain-core nu este instalat. Rulează: pip install langchain-core"
+            )
+
+        lc_tools = []
+        for name, tool in TOOL_REGISTRY.items():
+            if not tool.get("enabled", True):   # registry-ul nostru n-are 'enabled' → default True
+                continue
+
+            params_model = tool["params_model"]
+            func = tool["func"]
+
+            def make_wrapper(f, pm):
+                def wrapper(**kwargs) -> str:
+                    params = pm(**kwargs)
+                    return str(f(params))
+                return wrapper
+
+            lc_tool = StructuredTool.from_function(
+                func=make_wrapper(func, params_model),
+                name=name,
+                description=tool["description"],
+                args_schema=params_model,
+            )
+            lc_tools.append(lc_tool)
+        return lc_tools
