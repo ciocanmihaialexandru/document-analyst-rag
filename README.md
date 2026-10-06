@@ -32,7 +32,7 @@ document-analyst-rag/
 │   └── repository.py     # CRUD + similarity_search (cosine + filtru pachet)
 ├── rag/                  # L4 — RAG
 │   └── service.py        # embeddings (sentence-transformers) + search
-├── tools/                # tool-uri agent (din tema 1) + search_documents
+├── tools/                # tool-uri agent existente + search_documents
 ├── prompts/              # system prompturi (YAML + Jinja2)
 ├── alembic/              # migrări DB (tabele + extensie vector + index HNSW)
 ├── data/                 # documentele sursă + JSON-ul extras
@@ -57,7 +57,7 @@ document-analyst-rag/
 - **Similarity search + metadata filtering** — cosine distance în pgvector, cu
   filtru opțional pe pachet pentru întrebări specifice (ex: doar PREMIUM).
 - **Tool RAG în agent** — `search_documents(query, package)` înregistrat cu
-  `@register_tool`; agentul din tema 1 îl cheamă și decide singur parametrul
+  `@register_tool`; agentul existent îl cheamă și decide singur parametrul
   `package` când întrebarea menționează un pachet (pattern ReAct).
 
 ## Cerințe
