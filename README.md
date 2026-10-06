@@ -20,12 +20,16 @@ Document → **extracție** (text + tabele) → **chunking** → **embeddings** 
 ```
 document-analyst-rag/
 ├── agent.py              # agentul QA existent + tool-ul search_documents
+├── langchain_agent.py    # agent alternativ cu LangChain (create_agent)
 ├── ingest.py             # ingestare: rulează pipeline-ul pe un document
 ├── extraction/           # L3 — procesarea documentelor
 │   ├── schemas.py        # Pydantic: Comision, Pachet, DocumentComisioane
 │   ├── loaders.py        # loaders PDF/DOCX/TXT + split pe pachete
+│   ├── registry.py       # registry de extractoare per doc_type
 │   ├── chunker.py        # împărțirea textului în chunks (800/100)
 │   └── pipeline.py       # load → chunk → extract → store + JSON
+│   └── doc_types/
+│       └── cec.py        # SPECIFIC CEC: split pe pachete, prompt, meta, assemble
 ├── db/                   # L4 — storage
 │   ├── database.py       # engine, sesiuni, tranzacții
 │   ├── models.py         # Document (1) → DocumentChunk (N), Vector(384)
@@ -45,13 +49,18 @@ document-analyst-rag/
 - **Extracție structurată cu LLM** — fiecare pachet e trecut prin
   `with_structured_output(Pachet)` → date tipate (serviciu, categorie, valoare),
   salvate ca JSON.
-- **Loader cu registry** — `@register_loader` mapează extensia la funcția de
-  citire; PDF-ul tabelar e curățat (rânduri „serviciu — valoare”).
+- **Extracție generică pe `doc_type`** — framework-ul (`pipeline.py`, `loaders.py`)
+  e generic; tot ce e specific CEC (regex-ul de split pe pachete, prompt-ul de
+  extracție, detectarea băncii, asamblarea documentului) e izolat în
+  `extraction/doc_types/cec.py` și înregistrat în registry pe `doc_type`. Alt
+  document = un plugin nou, fără să atingi pipeline-ul. Loaderele de fișier rămân
+  generice, mapate pe extensie cu `@register_loader`.
 - **Chunking** — text împărțit în bucăți de ~800 caractere cu overlap 100;
   fiecare chunk e etichetat cu pachetul de care aparține.
 - **Postgres + pgvector + Alembic** — `Document` → `DocumentChunk` (one-to-many),
   coloană `Vector(384)`, index HNSW (`vector_cosine_ops`), schemă versionată prin
-  migrări Alembic.
+  migrări Alembic. Indexul HNSW e adăugat prin SQL brut într-o migrație Alembic, pentru că
+  autogenerate nu detectează indexurile pgvector.
 - **Embeddings multilingve** — `paraphrase-multilingual-MiniLM-L12-v2` (384 dim),
   potrivit pentru text românesc; lazy loading (model încărcat o singură dată).
 - **Similarity search + metadata filtering** — cosine distance în pgvector, cu
@@ -59,6 +68,10 @@ document-analyst-rag/
 - **Tool RAG în agent** — `search_documents(query, package)` înregistrat cu
   `@register_tool`; agentul existent îl cheamă și decide singur parametrul
   `package` când întrebarea menționează un pachet (pattern ReAct).
+- **Doi agenți, un singur registry de tool-uri** — pe lângă agentul manual ReAct,
+  `langchain_agent.py` folosește `create_agent` (LangChain v1), alimentat din
+  ACELAȘI `TOOL_REGISTRY` prin `ToolWrapper.to_langchain_tools()`. Un singur
+  `@register_tool`, folosit de ambii agenți.  
 
 ## Cerințe
 
@@ -118,6 +131,29 @@ USER: Cât costă retragerea de la ATM la pachetul PREMIUM?
 AGENT: La pachetul PREMIUM, retragerile de numerar în lei de la ATM-ul altor
 bănci costă 0 lei. Pentru pachetul gratuit (0 lei/lună) trebuie îndeplinite
 condițiile de rulaj; altfel pachetul costă 50 lei/lună.
+```
+
+**Sau prin agentul LangChain:**
+```bash
+python langchain_agent.py "Cât costă retragerea de la ATM la pachetul PREMIUM?"
+```
+
+## Exemplu
+
+```text
+Tool-uri încărcate în agent: ['calculator', 'get_datetime', 'get_weather', 'web_search', 'search_documents']
+Încărcare model paraphrase-multilingual-MiniLM-L12-v2...
+
+============================================================
+RĂSPUNS:
+============================================================
+La pachetul PREMIUM, retragerile de numerar în lei de la ATM-urile altor bănci
+costă 0 lei (sunt gratuite).
+
+Retragerile de la ATM-urile CEC Bank sunt, de asemenea, incluse gratuit în pachet.
+
+Costurile apar doar pentru retragerile de la ghișeul băncii, cu comisioane
+variabile în funcție de sumă și dacă sunt programate sau nu.
 ```
 
 ## Modele disponibile
