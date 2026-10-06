@@ -2,8 +2,6 @@
 
 Agent care răspunde la întrebări despre un document bancar (comisioane CEC),
 folosind **RAG** (Retrieval-Augmented Generation) peste PostgreSQL + pgvector.
-Temă pentru cursul AI Agent Development (Lecțiile 3-4 — Procesarea documentelor,
-Storage și RAG).
 
 ## Ce face
 
@@ -21,7 +19,7 @@ Document → **extracție** (text + tabele) → **chunking** → **embeddings** 
 
 ```
 document-analyst-rag/
-├── agent.py              # agentul QA (din tema 1) + tool-ul search_documents
+├── agent.py              # agentul QA existent + tool-ul search_documents
 ├── ingest.py             # ingestare: rulează pipeline-ul pe un document
 ├── extraction/           # L3 — procesarea documentelor
 │   ├── schemas.py        # Pydantic: Comision, Pachet, DocumentComisioane
