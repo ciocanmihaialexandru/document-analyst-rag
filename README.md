@@ -76,7 +76,7 @@ document-analyst-rag/
    pip install -r requirements.txt
 ```
 
-2. Pornește infrastructura (din folderul `skillab-infra/`, separat de proiect):
+2. Pornește infrastructura (din folderul `infrastructure`, separat de proiect):
 ```bash
    docker-compose up -d
 ```
@@ -86,7 +86,7 @@ document-analyst-rag/
 ```
    DATABASE_URL=postgresql+psycopg://skillab:skillab_dev@localhost:5432/skillab
 ```
-   (cheile API — Claude/Gemini — stau în `.env`-ul din `skillab-infra/`)
+   (cheile API — Claude/Gemini — stau în `.env`-ul din `infrastructure/`)
 
 4. Creează schema bazei de date:
 ```bash
